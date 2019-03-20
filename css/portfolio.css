@@ -93,11 +93,11 @@ body {
 #personal-info, #about, #twitter-feed {
     float: left;
     margin-right: 5%;
+    margin-bottom: 0;
 }
 
 #personal-info {
     width: 20%;
-    padding-top: 2px;
 }
 
 #about {
@@ -250,4 +250,37 @@ body {
 
 #social-media-links > li > a:hover {
     color: white;
+}
+
+@media all and (max-width: 768px) {
+    #navbar-title {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    #primary-menu {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #primary-menu li {
+        display: inline-block;
+        margin-right: 10px;
+        line-height: 1.5;
+    }
+    
+    #personal-info, #about, #twitter-feed {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .jobs > li {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .job-period {
+        width: 100%;
+    }
 }
