@@ -1,0 +1,84 @@
+.text-center {
+    text-align: center !important;
+}
+
+.text-color-normal {
+    color: black !important;
+}
+
+.text-color-inverse {
+    color: white !important;
+}
+
+.container {
+    overflow: auto;
+    width: 90%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.responsive-img-container {
+    width: 100%;
+}
+
+.responsive-img-container > img {
+    width: 100%;
+}
+
+.margin-none                { margin: 0;      }
+.margin-x-small             { margin: 8px 0;  }
+.margin-small               { margin: 12px 0; }
+.margin-base                { margin: 16px 0; }
+.margin-large               { margin: 21px 0; }
+.margin-x-large             { margin: 28px 0; }
+.margin-xx-large            { margin: 40px 0; }
+
+.margin-top-none            { margin-top: 0;    }
+.margin-top-x-small         { margin-top: 8px;  }
+.margin-top-small           { margin-top: 12px; }
+.margin-top-base            { margin-top: 16px; }
+.margin-top-large           { margin-top: 21px; }
+.margin-top-x-large         { margin-top: 28px; }
+.margin-top-xx-large        { margin-top: 40px; }
+
+.margin-bottom-none         { margin-bottom: 0;    }
+.margin-bottom-x-small      { margin-bottom: 8px;  }
+.margin-bottom-small        { margin-bottom: 12px; }
+.margin-bottom-base         { margin-bottom: 16px; }
+.margin-bottom-large        { margin-bottom: 21px; }
+.margin-bottom-x-large      { margin-bottom: 28px; }
+.margin-bottom-xx-large     { margin-bottom: 40px; }
+
+/*
+=================================
+            Widgets
+=================================
+*/
+.accordion {
+    
+}
+
+.accordion-item {
+    border: 1px solid black;
+}
+
+.accordion-item-title, .accordion-item-body {
+    padding: 16px 10px;
+    letter-spacing: 1px;
+}
+
+.accordion-item-title {
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.accordion-item-body {
+    display: none;
+    background-color: rgb( 204, 204, 204);
+}
+
+.accordion-item.in > .accordion-item-body {
+    display: block;
+}

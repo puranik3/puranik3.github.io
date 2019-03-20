@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'Crimson Text', Times, serif;
+    text-align: justify;
+    color: #333;
+    line-height: 1.42857143;
+}
+
+.sections-container {
+    overflow: auto;
+    padding: 60px 0;
+}
+
+.section-title-container {
+    text-transform: uppercase;
+}
+
+.section-title-container-small {
+    font-size: 0.75em;
+    line-height: 3.85em;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.section-title-container > hr {
+    height:0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0;
+}
+
+.section-sub-title {
+    font-size: 1.2em;
+}
+
+.sections-container.inverse {
+    color: white;
+    background-color: #222;
+}
+
+.sections-container.inverse .section-title-container > hr {
+    border-bottom-color: white;
+}
+
+.sections-container.gray {
+    color: #222;
+    background-color: rgb( 204, 204, 204);
+}
+
+.sections-container.gray .section-title-container > hr {
+    border-bottom-color: black;
+}
+
+#site-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 14px 0;
+    color: white;
+    background-color: rgba( 16, 16, 16, 0.85 );
+}
+
+#navbar-title {
+    float: left;
+    font-size: 2.5em;
+}
+
+#primary-menu {
+    float: right;
+}
+
+#primary-menu li {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 3.575;
+}
+
+#primary-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#personal-info, #about, #twitter-feed {
+    float: left;
+    margin-right: 5%;
+}
+
+#personal-info {
+    width: 20%;
+    padding-top: 2px;
+}
+
+#about {
+    width: 50%
+}
+
+#twitter-feed {
+    width: 20%;
+    margin-right: 0;
+}
+
+#personal-info-pic {
+    width: 60%;
+    border: 8px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px 2px rgba( 128, 128, 128, 0.6 );
+}
+
+.info-item {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.info-item-title {
+    font-weight: 700;
+}
+
+#objective {
+    font-size: 1.33333333em;
+}
+
+#tweets-container {
+    overflow: auto;
+    height: 400px;
+}
+
+.jobs > li {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.jobs > li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.job-title-period {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.job-period {
+    float: right;
+    font-size: 0.75em;
+    line-height: 1.9;
+}
+
+.job-description {
+    font-size: 1.33333333em;
+}
+
+.form-group {
+    overflow: auto;
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+.form-group > label {
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 25%;
+    padding: 6px 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-group > label.required-field:after {
+    content: '*';
+    margin-left: 6px;
+    color: red;
+}
+
+.form-control {
+    float: left;
+    width: 75%;
+    padding: 8px 2px;
+    border-width: 0;
+    border-bottom: 1px solid #222;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+    resize: none;
+}
+
+.form-buttons-group {
+    margin-left: 25%;
+}
+
+#btn-frm-contact-reset, #btn-frm-contact-submit {
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    color: #eee;
+    cursor: pointer;
+} 
+
+#btn-frm-contact-reset {
+    background-color: #555;
+}
+
+#btn-frm-contact-submit {
+    background-color: #008bf9;
+}
+
+#btn-frm-contact-reset:hover {
+    background-color: #222;
+}
+
+#btn-frm-contact-submit:hover {
+    background-color: #0069d9;
+}
+
+#site-footer {
+    padding: 20px 0;
+}
+
+#social-media-links-container {
+    overflow: auto;
+}
+
+#social-media-links {
+    float: right;
+    padding: 10px 0;
+}
+
+#social-media-links > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#social-media-links > li > a {
+    color: lightskyblue;
+}
+
+#social-media-links > li > a:hover {
+    color: white;
+}
