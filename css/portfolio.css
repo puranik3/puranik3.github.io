@@ -90,6 +90,10 @@ body {
     color: inherit;
 }
 
+#at-a-glance {
+    background-color: goldenrod;
+}
+
 #personal-info, #about, #twitter-feed {
     float: left;
     margin-right: 5%;
